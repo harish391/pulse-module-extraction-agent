@@ -1,26 +1,30 @@
-# Module Extraction
+# Module Extraction AI Agent
 
-Analyzes customer feedback to extract product modules and features using AI reasoning.
+Analyzes customer feedback to extract product modules and features using Claude AI and FastAPI.
 
 ## Overview
 
-This tool uses Claude's tool-calling capabilities to perform multi-step analysis on unstructured feedback text. It identifies key product modules, assesses priority levels, and validates extraction quality.
+This is a full-stack application that uses Claude's tool-calling capabilities to perform multi-step analysis on customer feedback. It identifies key product modules, assesses priority levels, and provides sentiment analysis.
+
+Built for the Pulse Full-Stack Developer Internship assignment.
 
 ## Features
 
-- Extract product modules from feedback
-- Priority assessment
-- Batch processing
-- REST API
+- Extract product modules from unstructured feedback
+- Automatic priority assessment (critical, high, medium, low)
+- Sentiment analysis (positive, negative, neutral)
+- Confidence scoring
+- REST API endpoints
 - Interactive web interface
+- Client-side CSV export
+- Batch processing support
 
-## Architecture
+## Tech Stack
 
-The system consists of three components:
+- **Backend**: Python, FastAPI, Uvicorn
+- **Frontend**: HTML5, CSS3, Vanilla JavaScript
+- **AI**: Claude API (Anthropic)
+- **Database**: JSON (results storage)
 
-- **Agent**: Python-based AI reasoning with tool calling
-- **API**: FastAPI backend for HTTP requests  
-- **Frontend**: HTML interface for analysis
-
-## Installation
+## Project Structure
 
