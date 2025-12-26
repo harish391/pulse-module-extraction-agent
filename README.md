@@ -600,23 +600,7 @@ https://github.com/harish391/pulse-module-extraction-agent
 
 Proprietary - Pulse Company Assignment
 
-## Submission Date
 
-December 26, 2025
-How to Use This README
-Open README.md in VS Code
-
-Select All (Ctrl+A)
-
-Delete existing content
-
-Paste the entire content above
-
-Save (Ctrl+S)
-
-Commit:
-
-bash
 git add README.md
 git commit -m "Update README with complete documentation"
 git push origin main
