@@ -1,0 +1,47 @@
+{
+  "extractions": [
+    {
+      "status": "success",
+      "feedback": "The search feature is too slow. Finding older projects takes forever. UI is confusing with too many filters. Export to CSV would help.",
+      "modules": [
+        "search",
+        "performance",
+        "ui",
+        "export"
+      ],
+      "priority": "high",
+      "sentiment": "negative",
+      "confidence": 0.41340000000000005,
+      "timestamp": "2025-12-26T12:28:28.844822",
+      "mode": "hybrid"
+    },
+    {
+      "status": "success",
+      "feedback": "Mobile app crashes on large file uploads. Authentication logs me out randomly. Database sync fails offline.",
+      "modules": [
+        "database",
+        "auth",
+        "mobile"
+      ],
+      "priority": "critical",
+      "sentiment": "neutral",
+      "confidence": 0.3107,
+      "timestamp": "2025-12-26T12:28:28.845970",
+      "mode": "hybrid"
+    },
+    {
+      "status": "success",
+      "feedback": "Dashboard performance is poor with 10K records. Need API caching improvements.",
+      "modules": [
+        "api"
+      ],
+      "priority": "medium",
+      "sentiment": "neutral",
+      "confidence": 0.10779999999999999,
+      "timestamp": "2025-12-26T12:28:28.846564",
+      "mode": "hybrid"
+    }
+  ],
+  "total": 3,
+  "timestamp": "2025-12-26T12:28:28.846797"
+}
